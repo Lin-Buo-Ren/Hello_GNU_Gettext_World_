@@ -1,4 +1,5 @@
 # Hello GNU Gettext World!
+<https://github.com/Lin-Buo-Ren/Hello_GNU_Gettext_World_>  
 This is a project to learn how to use GNU Gettext I18N framework properly.
 
 ## Author
