@@ -7,3 +7,9 @@ This is a project to learn how to use GNU Gettext I18N framework properly.
 
 ## LICENSE
 GNU GPLv3+
+
+## Frequently Asked Questions
+### How to build this software?
+Please refer the README page under each build solution folder under [Build Solutions/](Build Solutions/).
+### Where are my built software?
+Under each "build solution" directory under [Build Solutions/](Build Solutions/).  Not all of the build solution support customizing their build product directory so it is designed to place it under their own directory instead.
