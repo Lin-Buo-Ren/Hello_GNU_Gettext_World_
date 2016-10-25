@@ -1,0 +1,3 @@
+[submodule "Third-party Software/BinReloc"]
+	path = Third-party Software/BinReloc
+	url = https://github.com/limbahq/binreloc.git

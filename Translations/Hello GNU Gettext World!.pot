@@ -1,0 +1,23 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR 林博仁(Buo-Ren, Lin) <Buo.Ren.Lin@gmail.com>
+# This file is distributed under the same license as the Hello GNU Gettext World! package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hello GNU Gettext World! dev-trunk\n"
+"Report-Msgid-Bugs-To: https://github.com/Lin-Buo-Ren/Hello_GNU_Gettext_World_/issues\n"
+"POT-Creation-Date: 2016-10-24 10:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Source Code/C version/hello-gnu-gettext-world-c.c:36
+#, c-format
+msgid "Hello GNU Gettext world from C programming language!\n"
+msgstr ""

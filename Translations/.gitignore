@@ -1,0 +1,4 @@
+# Git ignore rules for Translations/
+## GNU Gettext machine object files
+*.mo
+
