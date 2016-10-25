@@ -43,6 +43,7 @@ source "$PROGRAM_DIRECTORY/build-c-version.function.bash"
 # http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
 main() {
 	( cd "$PROJECT_THIRD_PARTY_SOFTWARE_ROOT_DIRECTORY"/BinReloc && ./generate.pl normal )
+	"$PROJECT_TRANSLATIONS_ROOT_DIRECTORY"/convert-portable-object-to-machine-object.bash
 	
 	build_c_version
 	cp --recursive --no-target-directory "$PROJECT_SOFTWARE_RELEASE_TREE_TEMPLATE_ROOT_DIRECTORY"/SOFTWARE_NAME "$BUILD_SOLUTION_DIRECTORY_TEMPORARY_RELEASE_ROOT_DIRECTORY"
