@@ -20,4 +20,4 @@ We need:
 Please refer each build solution's README document for any additional software in order to build using each build solution.
 
 ### Where are my built software?
-Under each "build solution" directory under [Build Solutions/](Build Solutions/).  Not all of the build solution support customizing their build product directory so it is designed to place it under their own directory instead.
+Under each "build solution" directory under [Build Solutions/](Build Solutions/).  Not all of the build solutions support customizing their build product directory so it is designed to place it under their own directory instead.
