@@ -42,8 +42,10 @@ source "$PROGRAM_DIRECTORY/build-c-version.function.bash"
 # Defensive Bash Programming - main function, program entry point
 # http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
 main() {
+	( cd "$PROJECT_THIRD_PARTY_SOFTWARE_ROOT_DIRECTORY"/BinReloc && ./generate.pl normal )
+	
 	build_c_version
-	cp --recursive --no-target-directory "$PROJECT_SOFTWARE_RELEASE_TREE_TEMPLATE"/SOFTWARE_NAME "$BUILD_SOLUTION_DIRECTORY_TEMPORARY_RELEASE_ROOT_DIRECTORY"
+	cp --recursive --no-target-directory "$PROJECT_SOFTWARE_RELEASE_TREE_TEMPLATE_ROOT_DIRECTORY"/SOFTWARE_NAME "$BUILD_SOLUTION_DIRECTORY_TEMPORARY_RELEASE_ROOT_DIRECTORY"
 	cp "$BUILD_SOLUTION_DIRECTORY_INTERMEDIATE_BUILD_ARTIFACTS/hello-gnu-gettext-world-c" "$BUILD_SOLUTION_DIRECTORY_TEMPORARY_RELEASE_ROOT_DIRECTORY/Executables"
 	cp --recursive "$PROJECT_TRANSLATIONS_ROOT_DIRECTORY"/zh_TW "$PROJECT_TRANSLATIONS_ROOT_DIRECTORY"/convert-portable-object-to-machine-object.bash "$BUILD_SOLUTION_DIRECTORY_TEMPORARY_RELEASE_ROOT_DIRECTORY/Translations"
 	

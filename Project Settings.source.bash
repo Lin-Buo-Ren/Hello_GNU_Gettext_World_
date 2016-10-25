@@ -7,7 +7,8 @@ declare -r SOFTWARE_NAME="Hello GNU Gettext World!"
 ## Project directories definitions
 declare -r PROJECT_SOURCE_CODE_ROOT_DIRECTORY="$(realpath --no-symlinks "$PROJECT_ROOT_DIRECTORY/Source Code")"
 declare -r PROJECT_TRANSLATIONS_ROOT_DIRECTORY="$(realpath --no-symlinks "$PROJECT_ROOT_DIRECTORY/Translations")"
-declare -r PROJECT_SOFTWARE_RELEASE_TREE_TEMPLATE="$(realpath --no-symlinks "$PROJECT_ROOT_DIRECTORY/Software Release Tree Template")"
+declare -r PROJECT_SOFTWARE_RELEASE_TREE_TEMPLATE_ROOT_DIRECTORY="$(realpath --no-symlinks "$PROJECT_ROOT_DIRECTORY/Software Release Tree Template")"
+declare -r PROJECT_THIRD_PARTY_SOFTWARE_ROOT_DIRECTORY="$(realpath --no-symlinks "$PROJECT_ROOT_DIRECTORY/Third-party Software")"
 
 ## Release settings
 declare -r SOFTWARE_PATH_CONVERSION_FROM_EXECUTABLE_DIRECTORY_TO_RELEASE_ROOT_DIRECTORY=..

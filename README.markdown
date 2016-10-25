@@ -16,6 +16,7 @@ Please refer the README page under each build solution folder under [Build Solut
 We need:
 
 * GNU Compiler Collection(GCC) as build toolchain for C/C++ versions
+* Git to fetch submodules
 
 Please refer each build solution's README document for any additional software in order to build using each build solution.
 
