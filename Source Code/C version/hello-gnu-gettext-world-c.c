@@ -14,7 +14,7 @@
 #include <binreloc.h>
 
 /* For string manipulate support */
-#include <strings.h>
+#include <string.h>
 
 /* For max path limits */
 #include <limits.h>
