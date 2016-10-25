@@ -1,5 +1,5 @@
 # Ignore all hidden files in Unix
 .*
 
-# ...except for .gitignore itself
-!.gitignore
+# ...except for Git's files
+!.git*
